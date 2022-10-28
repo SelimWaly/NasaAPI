@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Selim Waly" name="Developer">
+  <meta content="Mashup + Orson.io" name="Code Assistance">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="modem">
+  <link rel="script" href="script.js">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <title>Nasa API User</title>  
+
+<link href="./main.3f6952e4.css" rel="stylesheet"></head>
+
+<body class="minimal">
+<div id="site-border-left"></div>
+<div id="site-border-right"></div>
+<div id="site-border-top"></div>
+<div id="site-border-bottom"></div>
+<!-- Add your content of header -->
+<header>
+  <nav class="navbar  navbar-fixed-top navbar-inverse">
+    <div class="container">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav ">
+          <li><a href="./index.html" title="">01 : Home</a></li>
+          <li><a href="./works.html" title="">02 : Explanation</a></li>
+          <!-- <li><a href="./about.html" title="">03 : About me</a></li> -->
+          <li><a href="mailto:selimwalyy@gmail.com" title="">03 : Contact Me</a></li>
+          <!-- <li><a id="devteam" title="">05 : Developers Team</a></li> -->
+          <li><a href="README.md" target="_blank" title="">? : README</a></li>
+        </ul>
+
+
+      </div> 
+    </div>
+  </nav>
+</header>
+<!-- Add your site or app content here -->
+  <div class="hero-full-container background-image-container white-text-container" style="background-image: url('./assets/images/space.jpg')" id="nasaMainImg">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="hero-full-wrapper">
+            <div class="text-content">
+              <h1>Hello,<br>
+                <span id="typed-strings">
+                  <span>I am Selim Waly!</span>
+                  <span>I made this website to show images/videos Nasa took!</span>
+                  <span>This was made using the Nasa API!</span>
+                </span>
+                <span id="typed"></span>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="container" style="padding: 50px;">
+<h2>Insert the date for the Nasa Image/Video you want!</h2>
+<br>
+<input type="date" id="nasaDate">
+<input type="button" value="Show Image" id="showimage">
+<br>
+<h2>Results</h2>
+<img id="nasaImg2">
+<iframe id="nasaVideo"></iframe>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+     type();
+     movingBackgroundImage();
+  });
+</script>
+
+
+<script type="text/javascript" src="./main.70a66962.js"></script>
+
+<script src="./app.js"></script>
+
+
+</body>
+
+</html>
