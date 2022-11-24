@@ -1,5 +1,5 @@
 let nasaDate = document.getElementById("nasaDate")
-let nasaButton = document.getElementById("showimage")
+let nasaButton = document.getElementById("show")
 
 let nasaMainImg = document.getElementById("nasaMainImg")
 let nasaImg = document.getElementById("nasaImg2")
